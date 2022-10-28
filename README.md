@@ -38,7 +38,7 @@
  python3 requirements.py
  ```
    ``` 
- python3 main.py
+ python3 web_spider.py
  ```
  ### Licensing
 
