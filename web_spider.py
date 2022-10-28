@@ -273,7 +273,15 @@ def find_all_links():
 
 
 
+def main():
+    banner()
+    get_user_inputs()
+    domain_ip()
+    Process_request()
+    find_all_links()
 
+
+main()
 
 
 
