@@ -46,7 +46,7 @@
  chmod +x web_spider.py
  ```
  ```
- cp web_spider.py ~/bin/webspider
+ cp web_spider.py /bin/webspider
  ```
  
  
