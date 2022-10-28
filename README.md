@@ -40,6 +40,16 @@
    ``` 
  python3 web_spider.py
  ```
+ 
+ > **Note** : To access this tool from  **ANY DIRECTORY**
+ ```
+ chmod +x web_spider.py
+ ```
+ ```
+ cp web_spider.py ~/bin/webspider
+ ```
+ 
+ 
  ### Licensing
 
 
