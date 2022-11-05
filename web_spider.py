@@ -110,7 +110,12 @@ def domain_ip():
     print("\ttimezone      :", timezone)
 
 
+    print("\n\n")
+    
+    for i in tqdm(range(100)):
+        time.sleep(0.06)
 
+    print("\n\n")
 
 
 
@@ -148,7 +153,9 @@ def Process_request():
     store_result.write(f" \n[*] Web-server :- {server} \n\n")
     store_result.write(f" [*] Set-cookie :- {session.cookies.get_dict()} ")
     # store_result.close()
-
+    
+    print("\n\n")
+    
     for i in tqdm(range(100)):
         time.sleep(0.06)
 
@@ -168,9 +175,9 @@ def Process_request():
 
     print("\n \t[*] Checking for HTTP Security Headers . . . .")
     time.sleep(3)
-    print("\n \t[*] Checking X-XSS-Protection . . . .\n\n")
+    print("\n \t[*] Checking X-XSS-Protection . . . .\n")
     time.sleep(3)
-    print("\n \t[*] Verifying Content-Security-Policy { CSP } . . . .\n\n")
+    print("\t[*] Verifying Content-Security-Policy { CSP } . . . .\n\n")
 
     for i in tqdm(range(100)):
         time.sleep(0.06)
