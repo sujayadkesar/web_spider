@@ -186,7 +186,7 @@ def Process_request():
     if 'Strict Transport Security' in header:
         pass
     else:
-        store_result.write(" [*] Cookie hijacking and man in the middle attack is possible \n")
+        store_result.write("\n [*] Cookie hijacking and man in the middle attack is possible \n")
         store_result.write(" [*] Strict Transport Security header is not implemented in this website\n\n")
 
     if 'X-XSS-Protection' in header:
